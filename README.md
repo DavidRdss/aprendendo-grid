@@ -10,8 +10,8 @@ while True:
         print(linha)
     print()  # espaço
 
-    cmd = input("Mover (w/a/s/d) ou q para sair: ").strip().lower()
-    if cmd == "q":
+    cmd = input("Mover (w/a/s/d) ou Q para sair: ").strip().lower()
+    if cmd == "Q":
         print("Falou! 👋")
         break
     if cmd == "w" and r > 0: r -= 1
@@ -21,5 +21,6 @@ while True:
     else:
         print("Comando inválido ou movimento impossível.\n")
 
-    # limpa tela simples (apenas para deixar a saída mais limpa)
+    # limpar a tela simples(apenas para deixar a saída mais limpa)
+    
     print("\n" * 5)
